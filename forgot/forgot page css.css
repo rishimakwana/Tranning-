@@ -1,0 +1,73 @@
+body{
+    background-color: darkgrey;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    text-decoration: solid;
+
+
+}
+.container{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    padding: 80px 20px;
+    border-style: solid;
+    border: 5px dodgerblue;
+    margin-left: 450px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 30px rgb(255, 255, 255);
+ }
+.data{
+    width: 350px;
+    height: 300px;
+    display: grid;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    padding: 10px;
+    padding-top: 15px;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 30px rgb(0, 0, 0);
+}
+.btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 90px;
+    width: 50%;
+    border: 2px solid rgb(52, 60, 52);
+    padding: 10px;
+}
+.react{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(48% - 50px);
+    margin-top: -5px;
+
+
+}
+.btn:hover {
+    color: rgb(4, 3, 3);
+    background-color: rgb(221, 210, 50);
+  }
+  .fig {
+      text-align: center;
+      border-bottom: 2px black;
+  }
+  .error {
+      color: red;
+  }
+  .fig{
+      padding: 20px 10px 10px;
+  }
